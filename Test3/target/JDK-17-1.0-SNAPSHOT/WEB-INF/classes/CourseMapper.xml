@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.controller.Dao.CourseMapper">
+ <insert id="save" parameterType="com.controller.Domain.Course">
+  insert into admin(name,password) values(#{name},#{password})
+ </insert>
+ <update id="update" parameterType="com.controller.Domain.Course">
+  update admin set name=#{name},password=#{password} where id=#{id}
+ </update>
+ <delete id="delete" parameterType="int">
+  delete from admin where id=#{id}
+ </delete>
+ <!-- mybsits_config中配置的alias类别名,也可直接配置resultType为类路径 -->
+ <select id="findById" parameterType="int" resultType="com.controller.Domain.Course">
+  select id,name,password from admin where id=#{id}
+ </select>
+ <select id="findAll" resultType="com.controller.Domain.Course">
+  select id,name,password from admin
+ </select>
+
+ <select id="login" resultMap="BaseResultMap" parameterType="com.controller.Domain.Course">
+  select*from admin where name=#{name} and password=#{password}
+ </select>
+
+</mapper>
+

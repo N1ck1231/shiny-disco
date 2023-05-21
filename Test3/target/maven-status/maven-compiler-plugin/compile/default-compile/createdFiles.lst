@@ -1,0 +1,5 @@
+com\controller\Contoller\CourseController.class
+com\controller\Dao\CourseMapper.class
+com\controller\Service\CourseService.class
+com\controller\Service\impl\CourseServiceImpl.class
+com\controller\Domain\Course.class
