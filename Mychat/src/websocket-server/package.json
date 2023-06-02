@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "jQuery": "^1.7.4",
+    "lan-emoji": "^1.0.4",
+    "mysql": "^2.18.1",
+    "nodejs-websocket": "^1.7.2",
+    "socket.io": "^4.6.1"
+  }
+}
