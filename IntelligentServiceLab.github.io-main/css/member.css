@@ -3,7 +3,6 @@
     overflow: hidden;
 }
 #member_ul .member_li{
-    background: #f8f8f8;
     width:285px;
     height: 300px;
     list-style: none;
@@ -30,6 +29,9 @@
 
 }
 .li-b{
+    position: relative;
+    top: -12%;
+    left:5%;
     padding: 0 25px;
     margin: 0;
 }
@@ -37,7 +39,7 @@
     height: 300px;
     width: 1000px;
     position: relative;
-    top:-73%;
+    top:-68%;
     right: -63%;
     font-size: 20px;
     /*border-bottom: #bdc1c4 solid 1px;*/
@@ -63,4 +65,7 @@
 *   {
     margin: 0;
 padding: 0;
+}
+#markdown-content{
+    font-size: 25px;
 }

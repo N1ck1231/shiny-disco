@@ -20,7 +20,6 @@ body {
   border-radius: 3px;
 }
 .page {
-  background-color: #f8f9f9;
   border-radius: 3px;
 }
 .author-bio {
@@ -333,10 +332,10 @@ blockquote p {
 }
 .all .logo img{
   width: 2000px;
-  height: 930px;
+  height: 80px;
   float: left;
 }
-@keyframes name{/* 停顿4%,一张图经过16% */
+/**@keyframes name{
   0%,20%{
     transform: translateX(0px);
   }
@@ -352,7 +351,7 @@ blockquote p {
   84%,100%{
     transform: translateX(-8000px);
   }
-}
+}**/
 
 .show-box{
   height: 930px;
@@ -534,7 +533,6 @@ blockquote p {
   padding: 0 1.2rem;
 }
 .container{
-  background-color: #f0f3f3;
 
 }
 .page article {
@@ -598,8 +596,8 @@ blockquote p {
     width: 100%;
     float: right;
     margin-right: 0;
-    -webkit-box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
-    box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
+    /*-webkit-box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
+    box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);*/
   }
   .page .page-title {
     padding: 0 3.6rem;
@@ -887,12 +885,14 @@ blockquote p {
   float: left;
   margin-left: 0;
   margin-right: 0;
-  color: #37474f;
+  color: #f4f5f6;
+  text-align: center;
+  font-size: 15px;
   -webkit-animation: intro 0.3s both;
   animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
   animation-delay: 0.45s;
-  background-color: #979f9f;
+  background-image: url(".././img/主页图片.jpg");
   border-top: 1px solid #bdc1c4;
 }
 #page_footer a {
@@ -911,7 +911,7 @@ blockquote p {
   margin-top: 0.8em;
   padding-right: 3.5em;
   padding-left: 3.5em;
-  color: #37474f;
+
   font-size: 1.68rem;
 }
 .nav-wrap {
@@ -1096,4 +1096,12 @@ blockquote p {
   width:60%;
   right: -20%;
   top:-250px;
+}
+#map_container{
+  position: relative;
+  top:-900px;
+  left: -38%;
+}
+.map{
+  height: 0;
 }
