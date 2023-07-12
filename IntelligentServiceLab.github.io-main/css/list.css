@@ -16,7 +16,7 @@
 }
 .nav{
     margin: 10px;
-    height: 700px;
+    height: 1600px;
     width: 70%;
     background: #ffffff;
     overflow: hidden;
@@ -35,7 +35,7 @@
     font-family: 'Microsoft YaHei',SimSun,SimHei ,"STHeiti Light",STHeiti,"Lucida Grande", Tahoma,Arial, Helvetica, sans-serif;
     animation-name: run;
     /* 持续时间 */
-    animation-duration:13s;
+    animation-duration:6s;
     animation-iteration-count :infinite;
     animation-timing-function :ease-in;
 }
@@ -46,7 +46,7 @@
 
 
    40%,100%{
-       transform: translateY(-550px);
+       transform: translateY(-300px);
    }
 }
 
@@ -55,6 +55,7 @@
 }
 #page_index_main{
     margin: 20px;
+    margin-top: 80px;
     /*width: 70%;*/
     height: 200%;
     
