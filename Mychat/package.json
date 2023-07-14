@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "colors": "^1.4.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.3.2",
+    "node-static": "^0.7.11",
+    "nodejs-websocket": "^1.7.2"
+  },
+  "name": "mychat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
